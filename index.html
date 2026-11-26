@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-inner">
+        <!-- ハンバーガーメニュー -->
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <a href="index.html" class="site-logo">田中工務店</a>
+
+        <nav class="global-nav" aria-label="メインナビゲーション">
+          <ul>
+            <li><a href="index.html" class="current">ホーム</a></li>
+            <li><a href="examples.html">施工例</a></li>
+            <li><a href="services.html">サービス</a></li>
+            <li><a href="blog-list.html">ブログ</a></li>
+            <li><a href="index.html#access">アクセス</a></li>
+            <li class="sp"><a href="contact.html">お問い合わせ</a></li>
+            <!-- コンタクトはハンバーガーメニューでのみ、表示させる -->
+          </ul>
+        </nav>
+
+        <a href="contact.html" class="header-contact"> お問い合わせ </a>
+
+        <a href="contact.html" class="mail-icon sp">
+          <img src="images/icon-email.svg" alt="メールアイコン" />
+        </a>
+      </div>
+
+      <!-- ハンバーガーメニュー -->
+      <div class="mask"></div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="wrapper">
+          <div class="hero-left">
+            <!-- 〇〇-left -->
+            <h1 class="hero-title">住み慣れた家を <span>より快適に</span></h1>
+            <p>そのためのお手伝い、賜ります。</p>
+            <p>地域に根ざして30年、住まいに新しい心地よさを</p>
+            <div class="hero-cta-btn-wrap">
+              <!-- cta-btn / hero-cta -->
+              <a href="contact.html" class="hero-btn">無料相談・お見積り →</a>
+            </div>
+          </div>
+          <div class="hero-right">
+            <!-- 〇〇-right -->
+            <div class="hero-image-box">
+              <!-- hero-image-box -->
+              <img
+                src="images/hero-photo.jpg"
+                class="pc"
+                alt="田中工務店代表の画像pc用"
+              />
+              <img
+                src="images/responsive-hero.png"
+                class="sp"
+                alt="田中工務店代表の画像sp用"
+              />
+              <h1 class="hero-title sp">
+                住み慣れた家を
+                <span>より快適に</span>
+              </h1>
+              <div class="hero-profile">
+                <!-- hero-profile -->
+                <p>一級建築士・代表</p>
+                <p>田中正則</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trouble">
+        <div class="wrapper">
+          <h2 class="section-title">お困りごとをお聞かせください</h2>
+        </div>
+        <div class="wrapper trouble-content">
+          <div class="trouble-left">
+            <ul>
+              <li>
+                <img src="images/icon-trouble.svg" alt="" /><span
+                  >おうちのトラブル</span
+                >
+              </li>
+              <li>
+                <img src="images/icon-door.svg" alt="" /><span
+                  >防犯・玄関リフォーム</span
+                >
+              </li>
+
+              <li>
+                <img src="images/icon-wallpaper.svg" alt="" /><span
+                  >壁紙の張替え</span
+                >
+              </li>
+              <li>
+                <img src="images/icon-ordermade.svg" alt="" /><span
+                  >造作家具・オーダー収納　など</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="trouble-right">
+            <img src="images/trouble.png" alt="お困りごと" />
+          </div>
+        </div>
+      </section>
+
+      <section class="examples">
+        <div class="wrapper">
+          <h2 class="section-title">施工例</h2>
+
+          <div class="example-card">
+            <div class="example-text">
+              <h3>玄関・門扉の防犯強化</h3>
+              <p>
+                木製の門扉を、最新のセキュリティ機能を備えたアルミ製の堅牢な門扉へ刷新。
+              </p>
+            </div>
+
+            <div class="example-images">
+              <div class="example-photo">
+                <span class="photo-label photo-label-before">BEFORE</span>
+                <img src="images/gate_before.png" alt="木製門扉" />
+              </div>
+              <div class="example-photo">
+                <span class="photo-label photo-label-after">AFTER</span>
+                <img src="images/gate_after.png" alt="防犯対応門扉" />
+              </div>
+            </div>
+          </div>
+
+          <div class="example-card">
+            <div class="example-text">
+              <h3>壁紙の全面張替え</h3>
+              <p>
+                くすんでしまった壁紙を、調湿・消臭機能のある高品質なクロスへ張替え。部屋全体がパッと明るくなります。
+              </p>
+            </div>
+
+            <div class="example-images">
+              <div class="example-photo">
+                <span class="photo-label photo-label-before">BEFORE</span>
+                <img src="images/wallpaper_before.png" alt="壁紙張替え前" />
+              </div>
+              <div class="example-photo">
+                <span class="photo-label photo-label-after">AFTER</span>
+                <img src="images/wallper_after.png" alt="壁紙張替え後" />
+              </div>
+            </div>
+          </div>
+
+          <div class="example-card">
+            <div class="example-text">
+              <h3>キッチン造作収納</h3>
+              <p>
+                物であふれていたキッチンに、使い勝手を考慮した作り付け収納を設置。家事の動線が改善され、毎日の料理が楽しくなります。
+              </p>
+            </div>
+
+            <div class="example-images">
+              <div class="example-photo">
+                <span class="photo-label photo-label-before">BEFORE</span>
+                <img src="images/kitchen_before.png" alt="台所収納前" />
+              </div>
+              <div class="example-photo">
+                <span class="photo-label photo-label-after">AFTER</span>
+                <img src="images/kitchen_after.png" alt="台所収納後" />
+              </div>
+            </div>
+          </div>
+
+          <div class="example-cta-btn">
+            <!-- cta-btn / hero-cta -->
+            <a href="examples.html" class="example-btn">施工例をくわしく見る</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="blogs">
+        <div class="wrapper">
+          <h2 class="section-title">最新ブログ</h2>
+
+          <div class="blog-list">
+            <a href="blog-festival.html" class="blog-card">
+              <div class="image-box">
+                <img
+                  src="images/blog1-1.PNG"
+                  alt="地域のお祭りに参加しました"
+                />
+              </div>
+              <p>2024.03.15</p>
+              <h3>地域のお祭りに参加しました</h3>
+            </a>
+
+            <a href="blog-tools.html" class="blog-card">
+              <div class="image-box">
+                <img src="images/blog2-1.png" alt="新しい施工道具の導入" />
+              </div>
+              <p>2024.03.28</p>
+              <h3>新しい施工道具の導入</h3>
+            </a>
+
+            <a href="blog-reform.html" class="blog-card">
+              <div class="image-box">
+                <img
+                  src="images/blog5-1.png"
+                  alt="春のリフォームキャンペーンのお知らせ"
+                />
+              </div>
+
+              <p>2024.04.10</p>
+              <h3>春のリフォームキャンペーンのお知らせ</h3>
+            </a>
+          </div>
+        </div>
+
+        <!-- ブログ一覧リンクをカードより少し左に出すためcontainerを使用 -->
+        <div class="container">
+          <div class="blogs-ctn-btn-wrap">
+            <a href="blog-list.html" class="blogs-btn"
+              >ブログ一覧はこちら　<span>→</span></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="access" id="access">
+        <div class="wrapper">
+          <h2 class="section-title">アクセス</h2>
+          <div class="access-content">
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d52271.106914678836!2d138.41504672846736!3d35.0331262715996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sjp!4v1787713698249!5m2!1sja!2sjp"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+              ></iframe>
+            </div>
+            <div class="address">
+              <p>株式会社田中工務店</p>
+              <p>〒000-0000 静岡県〇〇市〇町1-2-3</p>
+              <p>電話：054-000-0000</p>
+              <p>営業時間：9:00 〜 18:00（日曜定休）</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <div class="container">
+          <div class="company-info">
+            <p>田中工務店</p>
+            <p>〒000-0000 静岡県〇〇市〇〇町1-2-3</p>
+            <p>電話：054-000-0000</p>
+          </div>
+          <div class="footer-meta">
+            <p class="footer-links">
+              <span>プライバシーポリシー</span>
+              <span>利用規約</span>
+              <span>サイトマップ</span>
+            </p>
+
+            <p>© 田中工務店 Tanaka Koumuten. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="to-top"></a>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
